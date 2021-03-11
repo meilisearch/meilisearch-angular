@@ -33,9 +33,9 @@ _Instead of reinventing the wheel, we have opted to reuse the InstantSearch libr
 Run:
 
 ```bash
-$ yarn add angular-instantsearch@3.0.0-beta.5 @meilisearch/instant-meilisearch instantsearch.js
+yarn add angular-instantsearch@3.0.0-beta.5 @meilisearch/instant-meilisearch instantsearch.js
 # or
-$ npm install angular-instantsearch@3.0.0-beta.5 @meilisearch/instant-meilisearch instantsearch.js
+npm install angular-instantsearch@3.0.0-beta.5 @meilisearch/instant-meilisearch instantsearch.js
 ```
 
 NB: If you don't have any MeiliSearch instance running and containing your data, you should take a look at this [getting started page](https://docs.meilisearch.com/learn/tutorials/getting_started.html).
