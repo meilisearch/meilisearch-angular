@@ -46,9 +46,9 @@ In the `app.component.ts` file, add the following code:
 
 ```js
 import { Component } from '@angular/core'
-import { instantMeilisearch } from '@meilisearch/instant-meilisearch'
+import { instantMeiliSearch } from '@meilisearch/instant-meilisearch'
 
-const searchClient = instantMeilisearch(
+const searchClient = instantMeiliSearch(
   'https://demos.meilisearch.com',
   'q7QHwGiX841a509c8b05ef29e55f2d94c02c00635f729ccf097a734cbdf7961530f47c47'
 )
