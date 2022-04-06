@@ -1,0 +1,61 @@
+landing_getting_started_1: |-
+  // In app.component.ts
+
+  import { Component } from '@angular/core'
+  import { instantMeiliSearch } from '@meilisearch/instant-meilisearch'
+
+  const searchClient = instantMeiliSearch(
+    "http://localhost:7700",
+    "searchKey"
+  )
+
+  @Component({
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css'],
+  })
+  export class AppComponent {
+    title = 'angular-app'
+    config = {
+      indexName: 'movies',
+      searchClient,
+    }
+  }
+
+  // In app.component.ts
+  import { NgModule } from '@angular/core'
+  import { BrowserModule } from '@angular/platform-browser'
+  import { NgAisModule } from 'angular-instantsearch'
+
+  import { AppComponent } from './app.component'
+
+  @NgModule({
+    declarations: [AppComponent],
+    imports: [BrowserModule, NgAisModule.forRoot()],
+    providers: [],
+    bootstrap: [AppComponent],
+  })
+  export class AppModule {}
+
+  // in app.component.html
+  <div class="container">
+    <ais-instantsearch [config]="config">
+      <div class="search-panel">
+        <div class="search-panel__results">
+          <div class="searchbox">
+            <ais-search-box placeholder=""></ais-search-box>
+          </div>
+
+          <ais-hits>
+            <ng-template let-hits="hits">
+              <ol class="ais-Hits-list">
+                <li *ngFor="let hit of hits" class="ais-Hits-item">
+                  <div class="hit-name">{{hit.title}}</div>
+                </li>
+              </ol>
+            </ng-template>
+          </ais-hits>
+        </div>
+      </div>
+    </ais-instantsearch>
+  </div>
