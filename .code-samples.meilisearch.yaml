@@ -1,6 +1,5 @@
 landing_getting_started_1: |-
   // In app.component.ts
-
   import { Component } from '@angular/core'
   import { instantMeiliSearch } from '@meilisearch/instant-meilisearch'
 
@@ -14,6 +13,7 @@ landing_getting_started_1: |-
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css'],
   })
+
   export class AppComponent {
     title = 'angular-app'
     config = {
@@ -35,6 +35,7 @@ landing_getting_started_1: |-
     providers: [],
     bootstrap: [AppComponent],
   })
+
   export class AppModule {}
 
   // in app.component.html
