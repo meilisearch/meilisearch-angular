@@ -22,7 +22,7 @@ landing_getting_started_1: |-
     }
   }
 
-  // In app.component.ts
+  // In app.modules.ts
   import { NgModule } from '@angular/core'
   import { BrowserModule } from '@angular/platform-browser'
   import { NgAisModule } from 'angular-instantsearch'
