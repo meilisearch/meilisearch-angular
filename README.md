@@ -27,7 +27,7 @@ This repository describes the steps to integrate a relevant front-end search bar
 
 To integrate a front-end search bar, you need to install two packages:
 - the open-source [Angular InstantSearch](https://github.com/algolia/angular-instantsearch/) library powered by Algolia that provides all the front-end tools you need to highly customize your search bar environment.
-- the Meilisearch client [instant-meilisearch](https://github.com/meilisearch/instant-meilisearch/) to establish the communication between your Meilisearch instance and the Angular InstantSearch library.<br>
+- the Meilisearch client [instant-meilisearch](https://github.com/meilisearch/meilisearch-js-plugins/) to establish the communication between your Meilisearch instance and the Angular InstantSearch library.<br>
 _Instead of reinventing the wheel, we have opted to reuse the InstantSearch library for our own front-end tooling. We will contribute upstream any improvements that may result from our adoption of InstantSearch._
 
 Run:
@@ -134,7 +134,7 @@ At the bottom of `/src/polyfill.ts` file, add the following code:
 ## Customization and Documentation
 
 - The open-source Angular InstantSearch library is widely used and well documented in the [Algolia documentation](https://www.algolia.com/doc/api-reference/widgets/angular/). It provides all the widgets to customize and improve your search bar environment in your Angular application.
-- The [instant-meilisearch documentation](https://github.com/meilisearch/instant-meilisearch/) to add some customization.
+- The [instant-meilisearch documentation](https://github.com/meilisearch/meilisearch-js-plugins/) to add some customization.
 - The [Meilisearch documentation](https://docs.meilisearch.com/).
 
 <hr>
