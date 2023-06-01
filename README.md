@@ -6,7 +6,7 @@
 
 <h4 align="center">
   <a href="https://github.com/meilisearch/meilisearch">Meilisearch</a> |
-  <a href="https://docs.meilisearch.com">Documentation</a> |
+  <a href="https://www.meilisearch.com/docs">Documentation</a> |
   <a href="https://discord.meilisearch.com">Discord</a> |
   <a href="https://roadmap.meilisearch.com/tabs/1-under-consideration">Roadmap</a> |
   <a href="https://www.meilisearch.com">Website</a> |
@@ -38,7 +38,7 @@ yarn add angular-instantsearch@3.0.0-beta.5 @meilisearch/instant-meilisearch ins
 npm install angular-instantsearch@3.0.0-beta.5 @meilisearch/instant-meilisearch instantsearch.js
 ```
 
-NB: If you don't have any Meilisearch instance running and containing your data, you should take a look at this [getting started page](https://www.meilisearch.com/docs/learn/tutorials/getting_started.html).
+NB: If you don't have any Meilisearch instance running and containing your data, you should take a look at this [getting started page](https://www.meilisearch.com/docs/learn/getting_started/installation).
 
 ## Getting Started
 
