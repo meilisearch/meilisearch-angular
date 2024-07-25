@@ -132,7 +132,7 @@ At the bottom of `/src/polyfill.ts` file, add the following code:
 
 🚀 For a full getting started example, please take a look at this CodeSandbox:
 
-[![Edit MS + Angular-IS](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/ms-angularis-rqztkh?file=%2Fsrc%2Findex.html)
+[![Edit MS + Angular-IS](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/ms-angularis-68q9c6)
 
 💡 If you have never used Angular InstantSearch before, we recommend reading this [getting started documentation](https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/angular/).
 
