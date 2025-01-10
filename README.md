@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/meilisearch_angular.svg" alt="Meilisearch-Angular" width="200" height="200" />
 </p>
 
-<h1 align="center">Meilisearch Angular</h1>
+<h1 align="center">DEPRECATED - Meilisearch Angular</h1>
 
 <h4 align="center">
   <a href="https://github.com/meilisearch/meilisearch">Meilisearch</a> |
@@ -23,6 +23,18 @@
 **Meilisearch** is an open-source search engine. [Discover what Meilisearch is!](https://github.com/meilisearch/meilisearch)
 
 This repository describes the steps to integrate a relevant front-end search bar with a search-as-you-type experience!
+
+---
+
+## 🚨 DEPRECATION WARNING 🚨
+
+Dear Community,
+
+Angular integration via InstantSearch is now deprecated. The maintainers of the [Angular InstantSearch](https://www.npmjs.com/package/angular-instantsearch) package now recommend migrating to [Instantsearch.js](https://github.com/algolia/instantsearch/tree/master/packages/instantsearch.js) instead.
+
+Seeking immediate support? Please join us on our Discord channel.
+
+---
 
 ## ⚡ Supercharge your Meilisearch experience
 
@@ -73,7 +85,7 @@ export class AppComponent {
 
 ```
 
-In the `app.module.ts` add the following code: 
+In the `app.module.ts` add the following code:
 
 ```js
 import { NgModule } from '@angular/core'
@@ -123,7 +135,7 @@ In the `app.component.html` file, add the following code:
 </div>
 ```
 
-At the bottom of `/src/polyfill.ts` file, add the following code: 
+At the bottom of `/src/polyfill.ts` file, add the following code:
 ```js
 ;(window as any).process = {
   env: { DEBUG: undefined },
